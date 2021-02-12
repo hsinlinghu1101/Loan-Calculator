@@ -1,12 +1,33 @@
-.payment{
-    max-width: 600px;
-	margin:20px auto;
-	border-radius:2px;
-	padding:20px;
-    
+.result{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
 }
 
-.img img{
-	
-  width: 200px;
+.record{
+	flex-grow: 1;
+    max-width: 600px;
+	border-radius:2px;
+	padding:20px;
+	position: relative;
+	overflow: hidden;
+}
+.record .info{
+	position: relative;
+	font-weight: bold;
+    z-index: 2;
+}
+.record img{  
+	position: absolute;
+    max-width: 600px;
+    opacity: 0.3;
+	left: 0;
+    top: 0;
+}
+
+
+button:disabled{
+	background: #dddddd;
+	color:black;
 }

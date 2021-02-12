@@ -2,12 +2,18 @@ import React, {useState, useEffect} from 'react';
 import NumberFormat from 'react-number-format';
 import Records from './Records'
 import '../style/Payment.css'
-import mortgage from '../assets/Mortgage.jpg'
+import Mortgage from '../assets/Mortgage.png'
+import Auto from '../assets/Auto.png'
+import Others from '../assets/Others.png'
+import Personal from '../assets/Personal.png'
+import Student from '../assets/Student.png'
+
 export default function Payment(props){
   
   const [record, setRecord] = useState([])
   const [sum, setSum] = useState(0)
   const [isDisable, setIsDisable] = useState(false)
+  const bgImg = [Mortgage, Auto, Personal, Student, Others]
   const loan = props.loan
   let principal = parseInt(loan.loan)
   let payments = loan.loanTermMonth 
@@ -56,21 +62,21 @@ export default function Payment(props){
 
   
   return(
-        <div> 
+        <div className='result'> 
           
         {props.isSubmit && 
-        <div className='payment'> 
-          <div className='section'>
+        <div className='record'  > 
+          <div className='info'>
             <h2>{loan.loanType === ''? 'Others': loan.loanType} loans</h2>
             <p>Monthly Payments: <NumberFormat value={monthly.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
             <p>Total principal paid: <NumberFormat value={principal} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
             <p>Total interest paid: <NumberFormat value={totalInterest.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
             <p>Total amount repaid: <NumberFormat value={total.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
             <button className="btn send" onClick={()=> addRecord()} disabled={isDisable}>Save and continue</button>
-          </div>
-          <div className='section img'>
-            <img src={mortgage} alt={loan.loanType}/>
-          </div>
+            
+        </div>
+        
+          <img src={bgImg[Number(loan.typeNum)]} alt={loan.loanType}/>
           
         </div>
         

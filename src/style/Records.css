@@ -1,0 +1,41 @@
+.list{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: left;
+}
+
+ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.total{
+    display: inline-block;
+	padding: 9px;
+	margin: 0 10px 15px 10px;
+}
+
+
+.p-fre{
+    display: inline-block;
+      padding: 9px;
+      border:1px solid #DDDDDD;
+      margin: 0 10px 15px 10px;
+      border-radius: 3px;
+  }
+  
+  .p-fre > label{
+    display: block;
+      float: left;
+      margin-top: -19px;
+    background: #FFFFFF;
+      height: 14px;
+      padding: 2px 5px 2px 5px;
+    color: #939597;
+      font-size: 14px;
+      overflow: hidden;
+  }
+  
