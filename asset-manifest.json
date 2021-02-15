@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Loan-Calculator/static/css/main.f6145ef4.chunk.css",
+    "main.js": "/Loan-Calculator/static/js/main.733e9ccf.chunk.js",
+    "main.js.map": "/Loan-Calculator/static/js/main.733e9ccf.chunk.js.map",
+    "runtime-main.js": "/Loan-Calculator/static/js/runtime-main.9fbc49b0.js",
+    "runtime-main.js.map": "/Loan-Calculator/static/js/runtime-main.9fbc49b0.js.map",
+    "static/js/2.e824dce2.chunk.js": "/Loan-Calculator/static/js/2.e824dce2.chunk.js",
+    "static/js/2.e824dce2.chunk.js.map": "/Loan-Calculator/static/js/2.e824dce2.chunk.js.map",
+    "index.html": "/Loan-Calculator/index.html",
+    "static/css/main.f6145ef4.chunk.css.map": "/Loan-Calculator/static/css/main.f6145ef4.chunk.css.map",
+    "static/js/2.e824dce2.chunk.js.LICENSE.txt": "/Loan-Calculator/static/js/2.e824dce2.chunk.js.LICENSE.txt",
+    "static/media/Auto.be7d87be.png": "/Loan-Calculator/static/media/Auto.be7d87be.png",
+    "static/media/Mortgage.ba4e3332.png": "/Loan-Calculator/static/media/Mortgage.ba4e3332.png",
+    "static/media/Others.649a0511.png": "/Loan-Calculator/static/media/Others.649a0511.png",
+    "static/media/Personal.40497cfc.png": "/Loan-Calculator/static/media/Personal.40497cfc.png",
+    "static/media/Student.75d0cb1c.png": "/Loan-Calculator/static/media/Student.75d0cb1c.png",
+    "static/media/characters.09dcfb9f.png": "/Loan-Calculator/static/media/characters.09dcfb9f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fbc49b0.js",
+    "static/js/2.e824dce2.chunk.js",
+    "static/css/main.f6145ef4.chunk.css",
+    "static/js/main.733e9ccf.chunk.js"
+  ]
+}
