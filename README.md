@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Loan Calculator live site- https://hsinlinghu1101.github.io/Loan-Calculator/
 
 ## Available Scripts
 
