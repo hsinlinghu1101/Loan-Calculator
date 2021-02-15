@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+# Loan Calculator
 Loan Calculator live site- https://hsinlinghu1101.github.io/Loan-Calculator/
 
 ## Available Scripts
