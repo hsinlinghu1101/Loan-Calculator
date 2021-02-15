@@ -4,9 +4,6 @@ body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 58px;
-}
-
-.App {
   text-align: center;
 }
 
@@ -18,9 +15,12 @@ body{
   font-family: 'Ramabhadra';
   background-color:#f5df4d;
 }
+h1{
+  margin-top: 0;
+}
 
 form{
-  max-width: 800px;
+  max-width: 700px;
 	margin:20px auto;
 	border-radius:2px;
 	padding:20px;
@@ -49,7 +49,7 @@ select, input{
   box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	width: 100%;
+	width: 99%;
 	display: inline-block;
 	outline: none;
 	border: none;
@@ -58,11 +58,18 @@ select, input{
 	font-size: 16px;
 	padding: 0;
 }
+input{
+  width: 96%;
+}
 .loan_term{
   display: inline-block;
-  width: 30%;
-  margin:0 5px;
+  width: 35%;
+  margin-right: 5px;
 }
+.dollar, .percent{
+  margin-left: -10px;
+}
+
 .or{
   margin: 0 5px;
 }
@@ -75,9 +82,6 @@ select, input{
   font-weight: bold;
 }
 
-input{
-  width: 90%;
-}
 .send{
   color: #222831;
   background-color:#f5df4d;
@@ -85,13 +89,13 @@ input{
 }
 .send:hover:enabled {
   color:#f5df4d;
-  background-color:#939597;
+  background-color:#5E5E5E;
   border: 2px solid #f5df4d;
 }
 .reset{
-  color:#939597;
+  color:#5E5E5E;
   background-color:white;
-  border: 2px solid #939597;
+  border: 2px solid #5E5E5E;
 }
 .reset:hover:enabled{
   color: white;
@@ -111,4 +115,8 @@ footer{
 
 footer a{
   color:#f5df4d;
+}
+
+.characters{
+  opacity: 0.7;
 }

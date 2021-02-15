@@ -1,12 +1,7 @@
-.result{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   
-}
+
 
 .record{
-	flex-grow: 1;
+	margin: 0 auto;
     max-width: 600px;
 	border-radius:2px;
 	padding:20px;
