@@ -85,12 +85,12 @@ export default function Payment(props){
         {(props.isSubmit && !isDisable) && 
         
         <div className='record'  > 
-          <div className='info'>
+          <div className='info list1'>
             <h2> {loan.loanType === ''? 'Others': loan.loanType} loans</h2>
-            <p>Monthly Payments: <NumberFormat value={monthly.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
-            <p>Total principal paid: <NumberFormat value={principal} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
-            <p>Total interest paid: <NumberFormat value={totalMInterest.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
-            <p>Total amount repaid: <NumberFormat value={total.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></p>
+            <div className='list2'><span>Monthly Payments:</span><span> <NumberFormat value={monthly.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></span></div>
+            <div className='list2'><span>Total principal paid:</span><span> <NumberFormat value={principal.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></span></div>
+            <div className='list2'><span>Total interest paid:</span><span> <NumberFormat value={totalMInterest.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></span></div>
+            <div className='list2'><span>Total amount repaid:</span><span> <NumberFormat value={total.toFixed(2)} displayType={'text'} thousandSeparator={true} prefix={'$'} /></span></div>
             <button className="btn send" onClick={()=> addRecord()} disabled={isDisable}>Save and continue</button>
         </div>
           <img src={bgImg[Number(loan.typeNum)]} alt={loan.loanType}/>  

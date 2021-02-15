@@ -69,7 +69,7 @@ function App() {
           
         </div>
         <div className='section'>                       
-          <label htmlFor='loan_amount'>LOAN AMOUNT </label>
+          <label htmlFor='loan_amount'>LOAN BALANCE </label>
           <span className='dollar'>$</span>
           <input type='float' name='loan_amount' id='loan_amount' min="1000" required  onChange={()=>{setIsSubmit(false)}}/> 
                      

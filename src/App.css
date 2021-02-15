@@ -82,6 +82,8 @@ input{
   font-weight: bold;
 }
 
+button:focus {outline:0;}
+
 .send{
   color: #222831;
   background-color:#f5df4d;
