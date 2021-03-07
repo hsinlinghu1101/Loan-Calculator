@@ -41,7 +41,7 @@ function App() {
   return (
     <div>
       <header className="App-header">
-        <h1><i data-vi="calculator" data-vi-primary="#939597" data-vi-accent="#393e46" ></i>Loan Calculator</h1>
+      <i data-vi="calculator" data-vi-primary="#939597" data-vi-accent="#393e46" ></i><div className="name">Loan Calculator</div>
       </header>
       <main>
       <form onSubmit={(e)=>handleSubmit(e)}>
